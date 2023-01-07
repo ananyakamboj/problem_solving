@@ -3,7 +3,7 @@ def decimalToBinary(n):
     count = 0
     answer = 0
     while(n!=0):
-        x = n%10
+        x = n%2
         if (x%2 == 1):
             digit = 1
         else:
@@ -78,3 +78,5 @@ def binaryToDecimal(n):
     return answer
 
 print(binaryToDecimal(101))
+
+print(~101)
