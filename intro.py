@@ -1,6 +1,4 @@
 
-
-
 #Functions
 
 #defining a function
