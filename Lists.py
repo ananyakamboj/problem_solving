@@ -64,3 +64,48 @@ def printer(a):
         print(a[i])
 
 printer(list2)
+
+#maximum element in a list
+print("max element", max(list2))
+
+#minimum element in a list
+print("min element",min(list2))
+
+
+#given an array
+#output:sum of elements of the array
+
+print(sum(list2))
+
+
+#LINEAR SEARCH
+
+def linearSearch(x,y):
+    if x in y:
+        return True
+    else:
+        return False
+
+print(linearSearch(4,list2))
+print(linearSearch(3,list2))
+
+#using interchanging the elements
+def reverseArray(x):
+    for i in range(len(x)//2):
+        temp = x[i]
+        x[i]= x[len(x)-i-1]
+        x[len(x)-i-1] = temp
+    return x
+
+def reverseArray2(x):
+    return x[::-1]
+
+
+list = [1,2,3,4,5,6,573702,24727,28429,5]
+print("Using reverseArray")
+print(reverseArray(list))
+
+list = [1,2,3,4,5,6,573702,24727,28429,5]
+print("Using reverseArray2")
+print(reverseArray2(list))
+print(list)
