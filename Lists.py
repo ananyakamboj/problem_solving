@@ -109,3 +109,6 @@ list = [1,2,3,4,5,6,573702,24727,28429,5]
 print("Using reverseArray2")
 print(reverseArray2(list))
 print(list)
+
+
+#arrays practice
