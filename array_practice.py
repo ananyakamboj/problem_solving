@@ -55,5 +55,18 @@ print(answer)
 
 a = [1,2,3]
 b = [2,3,4]
+c= [0,0,0]
+d = [0,0,0]
 
 print(set(a)&set(b))
+target = 10
+a = list(range(6))
+for i in range(len(a)):
+    f = a[i]
+    for j in a[i+1:]:
+        s = a[j]
+        t = target-f-s
+        if t in a[j+1:]:
+            value = [f,s,t]
+            print(value)
+
