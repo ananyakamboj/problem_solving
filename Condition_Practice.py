@@ -17,3 +17,18 @@ while(n!=0):
 
 
 print("100: ", count_100, "50 :", count_50, "20: ", count_20, "1", count_1)
+
+#More conditionals, elif doesn't need a break
+print("MORE CONDITIONALS")
+
+a = 10
+if a<10:
+    print(a)
+elif a<20:
+    print(a)
+elif a<30(a):
+    print(a)
+    #will not get executed
+
+raw = input()
+print("your input", raw)
